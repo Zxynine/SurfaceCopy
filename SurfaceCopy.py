@@ -47,7 +47,7 @@ def run(context):
 	app_,ui_ = AppObjects.GetAppUI()
 	surfparent = ui_.allToolbarPanels.itemById('SurfaceModifyPanel').controls
 	COPY_SURFACE_TOOL.addDefinition('Copy','./resources/CopySurface',COMMAND_DATA)
-	COPY_SURFACE_TOOL.addControl(surfparent,True,'FusionMoveCommand')
+	COPY_SURFACE_TOOL.addControl(surfparent,False,'FusionMoveCommand')
 	events_manager_.add_handler(COPY_SURFACE_TOOL.definition.commandCreated, CopySurfaceCommandCreated)
 
 def stop(context):
