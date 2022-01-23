@@ -47,10 +47,11 @@ Note: I am just a single uni student so updates are not scheduled and issues may
 
 
 ## Installation
-1. Download the add-in from the [Releases](https://github.com/zxynine/SurfaceCopy/releases) page. If there are folders with an `@` symbol, ensure they are included in the release.
-2. Unpack it into `API\AddIns` (see [How to install an add-in or script in Fusion 360](https://knowledge.autodesk.com/support/fusion-360/troubleshooting/caas/sfdcarticles/sfdcarticles/How-to-install-an-ADD-IN-and-Script-in-Fusion-360.html)).
-3. Make sure the directory is named `AnyMacro`, with no suffix.
-4. The new command ***`Design(Workspace)`->`Surface(Tab)`->`Modify(Panel)`->`Copy`*** should now be available.
+1. Go to the [Releases](https://github.com/zxynine/SurfaceCopy/releases) page on GitHub. 
+2. Download the ***`Title`-`Version`*.zip** file of your choosing.
+3. Unpack it into `API\AddIns` (see [How to install an add-in or script in Fusion 360](https://knowledge.autodesk.com/support/fusion-360/troubleshooting/caas/sfdcarticles/sfdcarticles/How-to-install-an-ADD-IN-and-Script-in-Fusion-360.html)).
+4. Make sure the directory is named `SurfaceCopy`, with no suffix.
+5. The new command ***`Design(Workspace)`->`Surface(Tab)`->`Modify(Panel)`->`Copy`*** should now be available.
 
 The add-in can be temporarily disabled using the *Scripts and Add-ins* dialog. Press *`Shift+S`* in Fusion 360™ and go to the *Add-Ins* tab.
 
