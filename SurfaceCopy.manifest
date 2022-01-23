@@ -1,0 +1,13 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"addin",
+	"id":	"acb18eba-03f1-4af2-b7d7-b0b850cf0d37",
+	"author":	"ZXYNINE",
+	"description":	{
+		"":	"A tool used to copy surfaces for modification."
+	},
+	"version":	"0.1.0",
+	"runOnStartup":	true,
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true
+}
